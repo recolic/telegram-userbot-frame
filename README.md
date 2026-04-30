@@ -16,7 +16,7 @@ For more details, refer to our doc [modules/mod_example.py](modules/mod_example.
 
 ## How to install and run
 
-You need a Linux/MacOS device, and then install **python3 and python-telegram** on it. For example, if you are using ubuntu, you should run this:
+You need a Linux/MacOS device, and then install **python3 and python-telegram** on it. For example, if you are using ubuntu:
 
 ```
 sudo apt install python3 python3-pip
