@@ -23,14 +23,12 @@ sudo apt install python3 python3-pip
 sudo pip3 install python-telegram
 ```
 
-And then copy the `watchdog.py` onto your device. Modify the following lines at the top of the file. Refer to [Telegram Official Document](https://core.telegram.org/api/obtaining_api_id#obtaining-api-id) about how to get `api_id` and `api_hash`.
+Then download this repo. Modify `main.py` for config, and install desired mod. Refer to [Telegram Official Document](https://core.telegram.org/api/obtaining_api_id#obtaining-api-id) about how to get `api_id` and `api_hash`.
 
 ```
-YOUR_QUESTION = 'Your verification question here'
-YOUR_ANSWER = 'Your expected answer here'
 TELEGRAM_API_ID = 'Change This!'
 TELEGRAM_API_HASH = 'Change This!'
 TELEGRAM_PHONE = 'Phone number of your telegram account'
 ```
 
-Now you just need to run the modified `watchdog.py` 24 hours a day. Note that you need to input the SMS code on the first login.
+Enjoy. Note that first login requires SMS.
